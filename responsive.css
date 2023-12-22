@@ -1,0 +1,45 @@
+@media (max-width:400px) {
+    
+    .nav h1{
+        text-decoration: underline;
+        font-size: 6vw;
+    }
+    .nav-part2 h3{
+        font-size: 3.8vw;
+        
+    }
+    .container-one{
+        height: 70%;
+        padding-bottom: 0;
+        flex-direction: column;
+    }
+    .container-one .left h3{
+        margin-top: 0;
+            font-size: 3vw;
+    }
+    .container-one .left h1{
+        font-size: 5vw;
+    }
+    .container-one .left h1 span{
+        font-size: 6vw;
+    }
+    .container-one .left{
+        width: 95%;
+    }
+    .container-one .right{
+        display: none;
+    }
+    .container-two{
+        height: 60%;
+    }
+    .container-two .box{
+        margin: 0;
+    }
+    .left .green{
+        font-size: 4vw;
+    }
+    .left .blue{
+        font-size: 4vw;
+    }
+    
+}

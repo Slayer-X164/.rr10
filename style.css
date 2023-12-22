@@ -7,14 +7,16 @@
 
 }
 .main{
-    background-color: rgba(176, 181, 184, 0.533);
+    /* background-color: rgba(176, 181, 184, 0.533); */
+    background-color: white;
     width: 100%;
     height: 100%;
     position: relative;
 
 }
 .nav{
-    background-color: rgba(128, 128, 128, 0.23);
+    /* background-color: rgba(128, 128, 128, 0.23); */
+    background-color: rgb(255, 255, 255);
     z-index: 1;
     position: sticky;
     top: 0;
@@ -26,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border-bottom: 2px solid #989696; */
     
 }
 .nav h1{
@@ -142,12 +145,13 @@ margin-top: 50px;
 footer{
     border-top: 2px solid rgba(128, 128, 128, 0.59);
     font-weight: 900;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     /* line-height: 70px; */
     text-align: center;
     height: 10vh;
 }
 footer h3{
-    font-size: 1vw;
+    font-size: 15px;
     margin-top: 20px;
+    
 }
